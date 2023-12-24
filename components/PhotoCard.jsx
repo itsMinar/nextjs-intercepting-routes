@@ -4,7 +4,7 @@ export default function PhotoCard({ photo }) {
   return (
     <>
       <Image
-        alt=""
+        alt={`image from ${photo.name}`}
         src={photo.imageSrc}
         height={600}
         width={600}
